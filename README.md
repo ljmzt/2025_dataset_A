@@ -12,4 +12,5 @@ The original dataset was provided in Excel format and converted to CSV for easie
 3. **3_extract_note.ipynb** — Experiments with different methods for extracting information from the discharge_note column.  
 
 ## Report
-A brief summary of methods, results, and findings is provided in **report.md**.
+A brief summary of methods, results, and findings is provided in **report.md**.  
+The output from note extraction is saved in **note_extraction_output.csv**.
