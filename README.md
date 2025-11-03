@@ -1,15 +1,15 @@
-# Purpose
-Design a machine learning model to predict whether a patient will be readmitted within 30 days.
+# Hospital Readmission Prediction
 
-# Data
-Data in Excel was provided and was converted to csv for easier processing.
+## Purpose
+Develop a machine learning model to predict whether a patient will be readmitted within 30 days after hospital discharge.
 
-# Codes
-1. 1_EDA.ipynb: Notebook to perform EDA on the numerical, categorical and text columns
+## Data
+The original dataset was provided in Excel format and converted to CSV for easier data preprocessing and analysis.
 
-2. 3_modeling.ipynb: Notebook to perform Logistic Regression, Random Forest and XGBoost. A comparison of performance is also completed. 
+## Notebooks
+1. **1_EDA.ipynb** — Performs exploratory data analysis (EDA) on numerical, categorical, and text columns.  
+2. **2_modeling.ipynb** — Trains and evaluates Logistic Regression, Random Forest, and XGBoost models, and compares their performance.
+3. **3_extract_note.ipynb** — Experiments with different methods for extracting information from the discharge_note column.  
 
-3. 2_extract_note.ipynb: Notebook to test various methods to extract information on the discharge_note column.
-
-# Report
-A short summary report is also attached in report.md
+## Report
+A brief summary of methods, results, and findings is provided in **report.md**.
